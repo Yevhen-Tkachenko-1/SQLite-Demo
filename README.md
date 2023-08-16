@@ -12,5 +12,6 @@ To be ready execute queries:
 
 ### Run queries
 
-- Simple read [query](query/simple-read.sql): `SELECT AS`, `WHERE`, `ORDER BY`, `LIMIT`
+- Simple read [query](query/01-simple-read.sql): `SELECT AS`, `WHERE`, `ORDER BY`, `LIMIT`
+- Filter [query](query/02-filter.sql): `CASE WHEN THEN ELSE END`, `AND`, `OR`, `BETWEEN`, `IN`, `LIKE`, `DATE`
 - 
