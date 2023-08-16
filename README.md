@@ -12,7 +12,10 @@ To be ready execute queries:
 
 ### Run queries
 
-- Simple read [query](query/01-simple-read.sql): `SELECT AS`, `WHERE`, `ORDER BY`, `LIMIT`
+- Simple select [query](query/01-select.sql): `SELECT AS`, `WHERE`, `ORDER BY`, `LIMIT`
 - Filter [query](query/02-filter.sql): `CASE WHEN THEN ELSE END`, `AND`, `OR`, `BETWEEN`, `IN`, `LIKE`, `DATE`
 - Join [query](query/03-join.sql): `INNER JOIN ON`
+- Modification Functions query: `UPPER`, `LOWER`, `LENGTH`, `SUBSTR(column, index, lenght)`, `||`, `STRFDATE(format, datevalue)`, `ROUND(value, decimalDigitsNumber)`
+- Aggregation Functions query: `SUM`, `AVG`, `MAX`, `MIN`, `COUNT`
+- Grouping [query](query/06-grouping.sql): `GROUP BY`, `HAVING`
 - 
