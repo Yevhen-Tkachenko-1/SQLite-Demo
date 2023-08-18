@@ -1,7 +1,7 @@
 -- Simple read query
 
 /*
-Task
+Task:
 1. Get Customers by showing first name, last name, email address.
 2. Choose only those who work in some Company.
 3. Sort by first name first, then by last name in reverse alphabetical order.
