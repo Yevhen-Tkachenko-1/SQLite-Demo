@@ -2,7 +2,7 @@
 
 /*
 Task:
-1. For each City in each Country get Average Invoice Amount.
+1. For each City in each Country get Average amount and Number of purchases
 2. Show when Average Amount > 10.0
 3. Show when City that contains 's' letter
 4. Order by Country and City
@@ -10,9 +10,10 @@ Task:
 */
 
 SELECT
-	BillingCountry AS 'Country',
-	BillingCity AS 'City',
-	ROUND(AVG(total), 2) AS 'Average'
+	BillingCountry AS Country,
+	BillingCity AS City,
+	ROUND(AVG(total), 2) AS 'Average Amount',
+	COUNT(total) AS 'Total Number'
 FROM
 	Invoice
 WHERE
