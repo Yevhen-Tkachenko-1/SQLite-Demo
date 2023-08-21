@@ -21,3 +21,4 @@ Open SQLite Browser app, go to `Execute SQL` tab and paste queries from next exa
 - Aggregation Functions [query](query/05-aggregation-functions.sql): `SUM`, `AVG`, `MAX`, `MIN`, `COUNT`, and functional `ROUND(value, decimalDigitsNumber)`
 - Grouping [query](query/06-grouping.sql): `GROUP BY`, `HAVING`
 - Nested [query](query/07-subquery.sql):  `IS`
+- Add, update, delete [queries](query/08-modification.sql): `INSERT INTO ... VALUES ...`, `UPDATE ... SET ... WHERE`, `DELETE FROM ... WHERE` 
