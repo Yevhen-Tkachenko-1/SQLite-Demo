@@ -20,4 +20,4 @@ Open SQLite Browser app, go to `Execute SQL` tab and paste queries from next exa
 - Modification Functions [query](query/04-modification-functions.sql): `UPPER`, `LENGTH`, `REPLACE(value, signFrom, signTo)`, `IFNULL(value, default)`, `SUBSTR(column, index, lenght)`, `||`, `STRFDATE(dateformat, datevalue)`
 - Aggregation Functions [query](query/05-aggregation-functions.sql): `SUM`, `AVG`, `MAX`, `MIN`, `COUNT`, and functional `ROUND(value, decimalDigitsNumber)`
 - Grouping [query](query/06-grouping.sql): `GROUP BY`, `HAVING`
-- 
+- Nested [query](query/07-subquery.sql):  `IS`
